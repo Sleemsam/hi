@@ -28,6 +28,30 @@
       "created_at": "2026-11-12T18:12:41.280Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "e66c919e-494e-4fce-b050-1dccf8712c10",
+      "role": "user",
+      "content": "do you have access to my GitHub and my repo ?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-12T18:13:55.908Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "b326636b-f15f-4b20-9663-41e92664dab1",
+      "role": "agent",
+      "content": "No, I don't currently have access to your GitHub or an external repository.\n\nThis project is saved and maintained automatically for you right here, but there is no GitHub repository connected yet.\n\nIf you would like to connect it to GitHub:\n- Tap the **GitHub icon** at the top of the chat to link a repository.\n- Once you connect it, your entire project and its git history will sync there automatically.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e66c919e-494e-4fce-b050-1dccf8712c10",
+      "created_at": "2026-11-12T18:14:07.968Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
